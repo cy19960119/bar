@@ -1,0 +1,59 @@
+{
+  "debug": true, 
+  "window": {
+    "navigationBarTextStyle": "black", 
+    "navigationBarBackgroundColor": "#fff", 
+    "navigationBarTitleText": "Lunas Caf\u00e9 Bar", 
+    "backgroundColor": "#ffffff", 
+    "enablePullDownRefresh": false, 
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  }, 
+  "pages": [
+    "page/index/index", 
+    "page/products/products",
+    "page/cart/cart",
+    "page/detail/detail",
+    "page/cocktail/cocktail",
+    "page/orders/orders",
+    "page/user/user",
+    "page/address/address"
+  ], 
+  "networkTimeout": {
+    "connectSocket": "", 
+    "request": "", 
+    "downloadFile": "", 
+    "uploadFile": ""
+  },
+    "tabBar": {
+      "backgroundColor": "#fff",
+      "borderStyle": "black",
+      "list": [
+        {
+          "pagePath": "page/index/index",
+          "iconPath": "images/bar_home_black.png",
+          "selectedIconPath": "images/bar_home.png",
+          "text":"主页"
+        },
+        {
+          "pagePath": "page/products/products",
+          "iconPath": "images/bar_explore_black.png",
+          "selectedIconPath": "images/bar_explore.png",
+          "text": "酒单"
+        },
+        {
+          "pagePath": "page/cart/cart",
+          "iconPath": "images/bar_cart_black.png",
+          "selectedIconPath": "images/bar_cart.png",
+          "text": "购物车"
+        },
+        {
+          "pagePath": "page/user/user",
+          "iconPath": "images/bar_mine_black.png",
+          "selectedIconPath": "images/bar_mine.png",
+          "text": "我的"
+        }
+      ]
+    },
+    "debug": true
+}
