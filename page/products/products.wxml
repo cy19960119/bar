@@ -1,8 +1,11 @@
 <view class="c-minheight wx-view_TQ4nqD" data-c_e_id="wx_view878d6007">
     <view class="c-minheight wx-view_tdlUCs" data-c_e_id="wx_view_f0c1777a">
-        <navigator class="wx-navigator_n3vQYd" data-c_e_id="wx_navigator_2a68306e" hover-class="navigator-hover" url="../cocktail/cocktail">
-            <image class="wx-image_HsAX8s" data-c_e_id="wx_image_ebc70630" mode="aspectFit" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1519638618257&di=235813c9609b2977c3dc954733954704&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D2942062407%2C3079893499%26fm%3D214%26gp%3D0.jpg" style="background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1519638618257&di=235813c9609b2977c3dc954733954704&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D2942062407%2C3079893499%26fm%3D214%26gp%3D0.jpg); background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
+       <block wx:for="{{category}}">
+        <navigator class="wx-navigator_n3vQYd" data-c_e_id="wx_navigator_2a68306e" hover-class="navigator-hover" url="../detail/detail">
+            <image class="wx-image_HsAX8s" data-c_e_id="wx_image_ebc70630" mode="aspectFit" src="{{item.image}}" style="background-image: url({{item.image}}); background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
         </navigator>
+        </block>
+<!--         
         <navigator class="wx-navigator_n3vQYd" data-c_e_id="wx_navigator235f3af5" hover-class="navigator-hover" url="../detail/detail">
             <image class="wx-image_HsAX8s" data-c_e_id="wx_image5f9d3972" mode="aspectFit" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1519622259525&di=1078f254a729e0f2fa613082a62a5b37&imgtype=0&src=http%3A%2F%2Fpic2.16pic.com%2F00%2F12%2F78%2F16pic_1278181_b.jpg" style="background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1519622259525&di=1078f254a729e0f2fa613082a62a5b37&imgtype=0&src=http%3A%2F%2Fpic2.16pic.com%2F00%2F12%2F78%2F16pic_1278181_b.jpg); background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
         </navigator>
@@ -20,6 +23,6 @@
         </navigator>
         <navigator class="wx-navigator_n3vQYd" data-c_e_id="wx_navigatorf29281d1" hover-class="navigator-hover" url="../detail/detail">
             <image class="wx-image_HsAX8s" data-c_e_id="wx_imagecd27d345" mode="aspectFit" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1519622608803&di=e58c88794d487582fa2fbdd65d18755e&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F81%2F27%2F38v58PICkhG_1024.jpg" style="background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1519622608803&di=e58c88794d487582fa2fbdd65d18755e&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F81%2F27%2F38v58PICkhG_1024.jpg); background-size: contain; background-position: center center; background-repeat: no-repeat; "/>
-        </navigator>
+        </navigator> -->
     </view>
 </view>
